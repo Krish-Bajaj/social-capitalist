@@ -10,7 +10,7 @@ function App() {
 				<div style={{ display: 'flex', justifyContent: 'center' }}>
 					<InstagramEmbed url="https://www.instagram.com/p/CzvmJnpPrQY/" width={328} />
 				</div>
-				<iframe id="zoho" width='100%' height='585px' src='https://socialcapitalist.zohobookings.in/portal-embed#/customer/socialcapitalist' frameborder='0' allowfullscreen='' > </iframe>
+				<iframe title="zoho" width='100%' height='585px' src='https://socialcapitalist.zohobookings.in/portal-embed#/customer/socialcapitalist' frameborder='0' allowfullscreen='' > </iframe>
 
 			</header>
 		</div>
