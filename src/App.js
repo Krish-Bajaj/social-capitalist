@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+
+import { InstagramEmbed } from 'react-social-media-embed'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+
+				<div style={{ display: 'flex', justifyContent: 'center' }}>
+					<InstagramEmbed url="https://www.instagram.com/p/CzvmJnpPrQY/" width={328} />
+				</div>
+				<iframe width='100%' height='585px' src='https://socialcapitalist.zohobookings.in/portal-embed#/customer/socialcapitalist' frameborder='0' allowfullscreen='' > </iframe>
+
+			</header>
+		</div>
+	)
 }
 
-export default App;
+export default App
