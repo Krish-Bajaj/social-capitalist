@@ -45,7 +45,7 @@ const StyledSubText = styled.p`
 	font-weight: 500;
 	margin-top: 2rem;
     @media (max-width: 768px) {
-		margin-top: 0.5rem;
+		margin: 1.25rem 0;
 	}
 `
 

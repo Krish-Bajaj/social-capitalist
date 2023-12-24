@@ -9,3 +9,22 @@ export const companyDetails = () => {
 
 export const companyZohoBooking =
 	'https://socialcapitalist.zohobookings.in/portal-embed#/customer/socialcapitalist'
+
+export const commitmentsData = [
+	{
+		metric: 'More revenue for the brand',
+		value: '245%',
+	},
+	{
+		metric: 'Audiences reached',
+		value: '130K+',
+	},
+	{
+		metric: 'Brands trust us',
+		value: '50+',
+	},
+	{
+		metric: 'Cities reached',
+		value: '24+',
+	},
+]
