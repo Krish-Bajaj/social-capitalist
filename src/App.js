@@ -40,5 +40,6 @@ const SubContainer = styled.div`
 	padding: 120px 80px;
 	@media (max-width: 768px) {
 		padding: 120px 24px;
+		text-align: center;
 	}
 `

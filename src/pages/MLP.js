@@ -1,7 +1,9 @@
+import Hero from '../components/MLP/Hero'
+
 const MLP = () => {
     return (
         <>
-            <p>Hello</p>
+            <Hero />
         </>
     )
 }
