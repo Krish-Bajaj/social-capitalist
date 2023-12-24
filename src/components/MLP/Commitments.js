@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 import { commitmentsData } from '../../data'
 
-import image from '../../assets/hero.png'
 
 const Commitments = () => {
 	return (
