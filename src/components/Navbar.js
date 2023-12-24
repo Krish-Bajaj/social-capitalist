@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import { companyZohoBooking } from '../data'
+
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
@@ -23,7 +25,7 @@ const CustomNavbar = () => {
 					</Nav>
 				</Navbar.Collapse>
 				<Navbar.Collapse>
-					<Nav>
+					<Nav style={{ display: 'flex', alignItems: 'center' }}>
 						<CTA />
 					</Nav>
 				</Navbar.Collapse>
@@ -36,9 +38,11 @@ export default CustomNavbar
 
 const CTA = () => {
 	return (
-		<CTAStyled>
-			<p>Book A Call</p>
-		</CTAStyled>
+		<a href={companyZohoBooking} target='blank'>
+			<CTAStyled>
+				<p>Book A Call</p>
+			</CTAStyled>
+		</a>
 	)
 }
 
@@ -47,7 +51,7 @@ const CTAStyled = styled.button`
 	text-align: center;
 	padding: 1rem 1.5rem;
 	border-radius: 60px;
-	background: #3461ff;
+	background: var(--main-blue);
 	color: white;
 	font-weight: 600;
 	@media (max-width: 768px) {

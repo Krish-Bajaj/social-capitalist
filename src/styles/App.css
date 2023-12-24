@@ -12,6 +12,7 @@ html {
 	font-family: 'Montserrat';
 	margin: 0;
 	padding: 0;
+	--main-blue: #3461ff;
 }
 
 body {
@@ -19,8 +20,8 @@ body {
 }
 
 p {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
 }
 
 button {
@@ -29,6 +30,7 @@ button {
 
 a:link {
 	text-decoration: none;
+	color: #212529;
 }
 
 #root {
