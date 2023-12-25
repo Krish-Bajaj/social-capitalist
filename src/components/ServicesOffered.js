@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
-import electronics from '../../assets/electronics.png'
-import restaurants from '../../assets/restaurants.png'
-import fashion from '../../assets/fashion.png'
+import electronics from '../assets/electronics.png'
+import restaurants from '../assets/restaurants.png'
+import fashion from '../assets/fashion.png'
 
 const ServicesOffered = () => {
 	const services = [

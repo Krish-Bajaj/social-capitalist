@@ -2,8 +2,7 @@ import { Routes, BrowserRouter, Route } from 'react-router-dom'
 // import { InstagramEmbed } from 'react-social-media-embed'
 import styled from 'styled-components'
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import { Navbar, Footer } from './components'
 import MLP from './pages/MLP'
 import './styles/App.css'
 
