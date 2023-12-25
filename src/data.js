@@ -1,3 +1,5 @@
+import client from './assets/client.png'
+
 export const companyDetails = () => {
 	const data = {
 		Email: 'mahikah.socialcapitalist@gmail.com',
@@ -26,5 +28,43 @@ export const commitmentsData = [
 	{
 		metric: 'Cities reached',
 		value: '24+',
+	},
+]
+
+export const MLPtestimonials = [
+	{
+		image: client,
+		name: 'Jacob Joshua',
+		designation: 'Chief Manager',
+		testimonial:
+			"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+	},
+	{
+		image: client,
+		name: 'Jacob Joshua',
+		designation: 'Chief Manager',
+		testimonial:
+			"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+	},
+	{
+		image: client,
+		name: 'Jacob Joshua',
+		designation: 'Chief Manager',
+		testimonial:
+			"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+	},
+	{
+		image: client,
+		name: 'Jacob Joshua',
+		designation: 'Chief Manager',
+		testimonial:
+			"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+	},
+	{
+		image: client,
+		name: 'Jacob Joshua',
+		designation: 'Chief Manager',
+		testimonial:
+			"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
 	},
 ]
