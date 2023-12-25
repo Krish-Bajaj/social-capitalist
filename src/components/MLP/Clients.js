@@ -32,7 +32,7 @@ const Clients = () => {
 			<Title>Clients we have worked with</Title>
 			<SubContainer>
 				{clients.map(client => (
-					<img src={client} />
+					<img src={client} alt="client" />
 				))}
 			</SubContainer>
 		</Container>
