@@ -2,5 +2,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import ServicesOffered from './ServicesOffered'
 import BlueBanner from './BlueBanner'
+import BlackBanner from './BlackBanner'
+import Testimonials from './Testimonials'
 
-export { Navbar, Footer, ServicesOffered, BlueBanner }
+export { Navbar, Footer, ServicesOffered, BlueBanner, BlackBanner, Testimonials }

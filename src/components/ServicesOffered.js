@@ -25,7 +25,7 @@ const ServicesOffered = () => {
 	]
 
 	return (
-		<Container>
+		<Container id="services-offered">
 			<Title>Services Offered</Title>
 			<SubTitle>Elevating Experiences, Empowering Solutions</SubTitle>
 			<SubContainer>

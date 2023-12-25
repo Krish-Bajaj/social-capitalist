@@ -20,7 +20,7 @@ const CustomNavbar = () => {
 					<Nav className="navbar-links-mobile">
 						<Nav.Link href="#action1">Our Work</Nav.Link>
 						<Nav.Link href="#action1">Clients</Nav.Link>
-						<Nav.Link href="#action1">Services Offered</Nav.Link>
+						<Nav.Link href="#services-offered">Services Offered</Nav.Link>
 						<Nav.Link href="#action1">About Us</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

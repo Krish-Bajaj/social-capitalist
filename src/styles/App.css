@@ -73,7 +73,13 @@ a:link {
 }
 
 /* BlueBanner.js */
-.styled-div {
+.styled-div-bb1 {
 	background: url('../assets/ctaBanner.png') no-repeat;
 	background-size: cover;
+}
+/* BlackBanner.js */
+.styled-div-bb2 {
+	background: #232038 url('../assets/lines.png');
+	background-size: cover;
+	border-radius: 56px;
 }

@@ -4,7 +4,7 @@ import { companyZohoBooking } from '../data'
 
 const BlueBanner = () => {
 	return (
-		<Container className="styled-div">
+		<Container className="styled-div-bb1">
 			<Title>Elevate Your Brand Today!</Title>
 			<SubContainer>
 				<SubTitle>
