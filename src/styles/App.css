@@ -71,3 +71,9 @@ a:link {
 		flex-grow: 1;
 	}
 }
+
+/* BlueBanner.js */
+.styled-div {
+	background: url('../assets/ctaBanner.png') no-repeat;
+	background-size: cover;
+}

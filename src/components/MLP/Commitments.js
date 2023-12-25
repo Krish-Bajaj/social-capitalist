@@ -15,7 +15,7 @@ const Commitments = () => {
 				))}
 			</SubContainer1>
 			<SubContainer3>
-				<Title>Elevations</Title>
+				<Title>Value Provided</Title>
 				<SubTitle>
 					We are committed to working with you collaboratively to understand your goals and create a
 					strategy that will achieve them.

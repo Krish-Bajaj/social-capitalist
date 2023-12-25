@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import image from '../../assets/hero.png'
+import image from '../assets/hero.png'
 
 const Hero = () => {
     return (
