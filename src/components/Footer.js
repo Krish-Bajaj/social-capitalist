@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 import { companyDetails, companyZohoBooking } from '../data'
 
@@ -76,11 +77,15 @@ const Footer = () => {
 				</div>
 				<div>
 					<p>Our Work</p>
-					<p>Our Commitment</p>
+					<a href="#commitments">
+						<p>Our Commitment</p>
+					</a>
 					<p>Our Team</p>
 				</div>
 				<div>
-					<p>About Us</p>
+					<Link to="/about-us">
+						<p>About Us</p>
+					</Link>
 					<p>FAQs</p>
 					<p>Report a Bug</p>
 				</div>

@@ -3,7 +3,7 @@ import { Routes, BrowserRouter, Route } from 'react-router-dom'
 import styled from 'styled-components'
 
 import { Navbar, Footer } from './components'
-import MLP from './pages/MLP'
+import { MLP, AboutUs } from './pages'
 import './styles/App.css'
 
 function App() {
@@ -14,12 +14,12 @@ function App() {
 				<SubContainer>
 					<Routes>
 						<Route path="/" exact={true} element={<MLP />} />
+						<Route path="/about-us" exact={true} element={<AboutUs />} />
 					</Routes>
 				</SubContainer>
 				{/* <div style={{ display: 'flex', justifyContent: 'center' }}>
 					<InstagramEmbed url="https://www.instagram.com/p/CzvmJnpPrQY/" width={328} />
-				</div>
-				<iframe title="zoho" width='100%' height='585px' src='https://socialcapitalist.zohobookings.in/portal-embed#/customer/socialcapitalist' frameborder='0' allowfullscreen='' > </iframe> */}
+				</div> */}
 				<Footer />
 			</AppContainer>
 		</BrowserRouter>

@@ -5,7 +5,7 @@ import { commitmentsData } from '../../data'
 
 const Commitments = () => {
 	return (
-		<Container>
+		<Container id="commitments">
 			<SubContainer1>
 				{commitmentsData.map(el => (
 					<SubContainer2>

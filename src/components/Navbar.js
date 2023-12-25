@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 import { companyZohoBooking } from '../data'
 
@@ -13,15 +14,19 @@ const CustomNavbar = () => {
 		<Navbar bg="light" data-bs-theme="light" fixed="top" expand="lg">
 			<Container>
 				<Navbar.Brand href="#">
-					<img src={logoDesktop} alt="social-capitalist" width="125" height="75" />
+					<Link to="/">
+						<img src={logoDesktop} alt="social-capitalist" width="125" height="75" />
+					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse>
 					<Nav className="navbar-links-mobile">
 						<Nav.Link href="#action1">Our Work</Nav.Link>
-						<Nav.Link href="#action1">Clients</Nav.Link>
+						<Nav.Link href="#clients">Clients</Nav.Link>
 						<Nav.Link href="#services-offered">Services Offered</Nav.Link>
-						<Nav.Link href="#action1">About Us</Nav.Link>
+						<Nav.Link>
+							<Link to="/about-us">About Us</Link>
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 				<Navbar.Collapse>
@@ -38,7 +43,7 @@ export default CustomNavbar
 
 const CTA = () => {
 	return (
-		<a href={companyZohoBooking} target='blank'>
+		<a href={companyZohoBooking} target="blank">
 			<CTAStyled>
 				<p>Book A Call</p>
 			</CTAStyled>

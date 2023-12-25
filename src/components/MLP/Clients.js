@@ -28,7 +28,7 @@ const Clients = () => {
 	clients.map(el => console.log(el))
 
 	return (
-		<Container>
+		<Container id="clients">
 			<Title>Clients we have worked with</Title>
 			<SubContainer>
 				{clients.map(client => (
