@@ -65,7 +65,7 @@ const Value = styled.p`
 	font-weight: 100;
 	text-transform: capitalize;
     @media (max-width: 768px) {
-        font-size: 32px;
+        font-size: 40px;
 	}
 `
 const Metric = styled.p`
@@ -73,8 +73,9 @@ const Metric = styled.p`
 	font-weight: 500;
 	line-height: 24px;
     @media (max-width: 768px) {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 165%;
+        margin-bottom: 1rem;
 	}
 `
 const Title = styled.p`
@@ -84,7 +85,7 @@ const Title = styled.p`
 	text-transform: capitalize;
     @media (max-width: 768px) {
         margin-top: 1rem;
-        font-size: 32px;
+        font-size: 40px;
 	}
 `
 const SubTitle = styled.p`
@@ -93,6 +94,6 @@ const SubTitle = styled.p`
 	line-height: 32px;
     @media (max-width: 768px) {
         font-size: 12px;
-        line-height: 165%;
+        line-height: 185%;
 	}
 `

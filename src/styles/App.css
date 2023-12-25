@@ -28,6 +28,9 @@ button {
   border: none;
 }
 
+a {
+	color: #212529;
+}
 a:link {
 	text-decoration: none;
 	color: #212529;

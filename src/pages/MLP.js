@@ -1,11 +1,11 @@
-import Hero from '../components/MLP/Hero'
-import Commitments from '../components/MLP/Commitments'
+import { Hero, Commitments, ServicesOffered } from '../components/MLP'
 
 const MLP = () => {
     return (
         <>
             <Hero />
             <Commitments />
+            <ServicesOffered />
         </>
     )
 }

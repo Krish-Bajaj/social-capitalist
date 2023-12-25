@@ -21,3 +21,7 @@ const Container = styled.div`
 		flex-direction: column;
 	}
 `
+
+const Title = styled.p`
+    
+`
