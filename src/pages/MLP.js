@@ -3,11 +3,13 @@ import Commitments from '../components/MLP/Commitments'
 import Clients from '../components/MLP/Clients'
 import { ServicesOffered, BlueBanner, BlackBanner, Testimonials } from '../components'
 
+import { SubContainer } from '../App'
+
 import { MLPtestimonials } from '../data'
 
 const MLP = () => {
     return (
-        <>
+        <SubContainer>
             <Hero />
             <Commitments />
             <ServicesOffered />
@@ -16,7 +18,7 @@ const MLP = () => {
             <div style={{ marginTop: '5rem' }} />
             <Testimonials data={MLPtestimonials} />
             <BlackBanner />
-        </>
+        </SubContainer>
     )
 }
 

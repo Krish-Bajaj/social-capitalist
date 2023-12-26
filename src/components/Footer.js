@@ -49,7 +49,9 @@ const Footer = () => {
 	return (
 		<Container>
 			<div>
-				<StyledImage src={logo} alt="social-capitalist" />
+				<Link to="/">
+					<StyledImage src={logo} alt="social-capitalist" />
+				</Link>
 				<ImageContainer>
 					{socials.map(el => (
 						<a href={el.link} target="blank">

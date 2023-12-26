@@ -1,9 +1,11 @@
 import { Routes, BrowserRouter, Route } from 'react-router-dom'
-// import { InstagramEmbed } from 'react-social-media-embed'
 import styled from 'styled-components'
 
+import ScrollToTop from './utils/ScrollToTop'
+
 import { Navbar, Footer } from './components'
-import { MLP, AboutUs } from './pages'
+import { MLP, AboutUs, Services } from './pages'
+
 import './styles/App.css'
 
 function App() {
@@ -11,15 +13,12 @@ function App() {
 		<BrowserRouter>
 			<Navbar />
 			<AppContainer>
-				<SubContainer>
-					<Routes>
-						<Route path="/" exact={true} element={<MLP />} />
-						<Route path="/about-us" exact={true} element={<AboutUs />} />
-					</Routes>
-				</SubContainer>
-				{/* <div style={{ display: 'flex', justifyContent: 'center' }}>
-					<InstagramEmbed url="https://www.instagram.com/p/CzvmJnpPrQY/" width={328} />
-				</div> */}
+				<ScrollToTop />
+				<Routes>
+					<Route path="/" exact={true} element={<MLP />} />
+					<Route path="/about-us" element={<AboutUs />} />
+					<Route path="/services/:id" element={<Services />} />
+				</Routes>
 				<Footer />
 			</AppContainer>
 		</BrowserRouter>
@@ -35,7 +34,7 @@ const AppContainer = styled.div`
 	flex-direction: column;
 `
 
-const SubContainer = styled.div`
+export const SubContainer = styled.div`
 	padding: 120px 80px;
 	@media (max-width: 768px) {
 		padding: 120px 24px;

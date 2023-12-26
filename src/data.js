@@ -1,4 +1,73 @@
 import client from './assets/client.png'
+import restaurantBanner from './assets/restaurantsBanner.png'
+
+export const servicesData = {
+	electronics: {
+		banner: '',
+		tagline: '',
+		work: [],
+		testimonials: [
+			{
+				image: '',
+				name: '',
+				designation: '',
+				testimonial: '',
+			},
+		],
+	},
+	restaurants: {
+		banner: restaurantBanner,
+		tagline: "Serving Success: Elevate Your Restaurant's Reach",
+		work: [
+			'https://www.instagram.com/p/CzvmJnpPrQY/',
+			'https://www.instagram.com/reel/C0lS6TJvZde/',
+			'https://www.instagram.com/reel/CkTLwbKrr-y/',
+		],
+		testimonials: [
+			{
+				image: client,
+				name: 'Jacob Joshua',
+				designation: 'Chief Manager',
+				testimonial:
+					"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+			},
+			{
+				image: client,
+				name: 'Jacob Joshua',
+				designation: 'Chief Manager',
+				testimonial:
+					"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+			},
+			{
+				image: client,
+				name: 'Jacob Joshua',
+				designation: 'Chief Manager',
+				testimonial:
+					"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+			},
+			{
+				image: client,
+				name: 'Jacob Joshua',
+				designation: 'Chief Manager',
+				testimonial:
+					"I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!",
+			},
+		],
+	},
+	fashion: {
+		banner: '',
+		tagline: '',
+		work: [],
+		testimonials: [
+			{
+				image: '',
+				name: '',
+				designation: '',
+				testimonial: '',
+			},
+		],
+	},
+}
 
 export const companyDetails = () => {
 	const data = {

@@ -10,17 +10,17 @@ const ServicesOffered = () => {
 		{
 			image: electronics,
 			service: 'Electronics',
-			link: '/services-offered/electronics',
+			link: '/services/electronics',
 		},
 		{
 			image: restaurants,
 			service: 'Restaurants',
-			link: '/services-offered/restaurants',
+			link: '/services/restaurants',
 		},
 		{
 			image: fashion,
 			service: 'Fashion',
-			link: '/services-offered/fashion',
+			link: '/services/fashion',
 		},
 	]
 

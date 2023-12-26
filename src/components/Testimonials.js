@@ -12,7 +12,7 @@ const Testimonials = ({ data }) => {
 		<Container>
 			<Title>What Our Clients Said about us</Title>
 			<Marquee pauseOnHover speed={43}>
-				{data.map(el => (
+				{data?.map(el => (
 					<Card
 						image={el.image}
 						name={el.name}
