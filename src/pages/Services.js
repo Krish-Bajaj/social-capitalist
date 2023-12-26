@@ -20,7 +20,7 @@ const Services = () => {
 			<StyledImg src={data['banner']} alt="social-capitalist" />
 			<Container>
 				<Title>{data['tagline']}</Title>
-				<SubTitle>Glimpse Of Some Of Our Work:</SubTitle>
+				<SubTitle>Glimpse Of Some Of Our Work</SubTitle>
 				<ReelsContainer>
 					{data['work']?.map(el => (
 						<InstagramEmbed url={el} />
@@ -81,10 +81,11 @@ const Title = styled.p`
 `
 const SubTitle = styled.p`
 	font-size: 42px;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: -1px;
 	text-transform: capitalize;
 	margin-top: 280px;
+    color: #eea767;
 	@media (max-width: 768px) {
 		font-size: 24px;
 		margin-top: 125px;

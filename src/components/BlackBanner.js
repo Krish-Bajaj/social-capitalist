@@ -59,8 +59,9 @@ const Container = styled.div`
 
 const StyledImg = styled.img`
     @media (max-width: 768px) {
-		width: 85%;
-        height: 85%;
+		/* width: 85%;
+        height: 85%; */
+		display: none;
 	}
 `
 

@@ -19,9 +19,9 @@ export const servicesData = {
 		banner: restaurantBanner,
 		tagline: "Serving Success: Elevate Your Restaurant's Reach",
 		work: [
-			'https://www.instagram.com/p/CzvmJnpPrQY/',
-			'https://www.instagram.com/reel/C0lS6TJvZde/',
 			'https://www.instagram.com/reel/CkTLwbKrr-y/',
+			'https://www.instagram.com/reel/C0lS6TJvZde/',
+			'https://www.instagram.com/p/CzvmJnpPrQY/',
 		],
 		testimonials: [
 			{

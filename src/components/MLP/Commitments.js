@@ -49,7 +49,7 @@ const SubContainer1 = styled.div`
 const SubContainer2 = styled.div`
     width: 240px;
     @media (max-width: 768px) {
-		width: 100px
+		width: 120px
 	}
 `
 const SubContainer3 = styled.div`
