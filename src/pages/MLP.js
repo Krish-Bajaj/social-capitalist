@@ -1,6 +1,7 @@
 import Hero from '../components/MLP/Hero'
 import Commitments from '../components/MLP/Commitments'
 import Clients from '../components/MLP/Clients'
+import SwiperMain from '../components/MLP/SwiperMain'
 import { ServicesOffered, BlueBanner, BlackBanner, Testimonials } from '../components'
 
 import { SubContainer } from '../App'
@@ -11,6 +12,7 @@ const MLP = () => {
     return (
         <SubContainer>
             <Hero />
+            <SwiperMain />
             <Commitments />
             <ServicesOffered />
             <Clients />

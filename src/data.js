@@ -83,20 +83,20 @@ export const companyZohoBooking =
 
 export const commitmentsData = [
 	{
-		metric: 'More revenue for the brand',
-		value: '245%',
+		metric: 'In-house & independent',
+		value: '100%',
 	},
 	{
-		metric: 'Audiences reached',
-		value: '130K+',
+		metric: 'Crafting Digital Experiences',
+		value: '2+ Years',
 	},
 	{
 		metric: 'Brands trust us',
-		value: '50+',
+		value: '70+',
 	},
 	{
 		metric: 'Cities reached',
-		value: '24+',
+		value: '8+',
 	},
 ]
 

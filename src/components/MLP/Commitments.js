@@ -60,12 +60,12 @@ const SubContainer3 = styled.div`
 `
 
 const Value = styled.p`
-	font-size: 64px;
+	font-size: 48px;
 	font-style: italic;
 	font-weight: 100;
 	text-transform: capitalize;
     @media (max-width: 768px) {
-        font-size: 40px;
+        font-size: 27px;
 	}
 `
 const Metric = styled.p`
