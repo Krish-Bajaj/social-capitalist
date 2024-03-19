@@ -106,28 +106,28 @@ export const MLPtestimonials = [
 		name: 'Devanshi',
 		designation: 'Founder, Label Devanshi Didwania',
 		testimonial:
-			"Ive been working with Mahikah for the last month and l'd like to say that it's been an absolute pleasure! Not only is she super hard working but super helpful with anything and everything. She goes out of her way to make sure the work is done and fully understands her clients requirements which leads to a perfect harmony of interests! Lastly I'd like to add that you can totally trust her with your work and know that she'll deliver on time with exactly what you envision!",
+			"Ive been working with Social Capitalist for the last month and l'd like to say that it's been an absolute pleasure! Not only are they super hard working but super helpful with anything and everything. They go out of their way to make sure the work is done and fully understood which leads to a perfect harmony of interests! Lastly I'd like to add that you can totally trust them with your work and know that they'll deliver on time with exactly what you envision!",
 	},
 	{
 		image: client,
 		name: 'Akshay Nihalani',
 		designation: 'Co-founder, Sagar Nihalani',
 		testimonial:
-			"We've had the pleasure of collaborating with Mahikah and Socialcapitalist101 for the past two years, and it's been an exceptional partnership. The social media management team consistently delivers creative, strategic, and impactful campaigns that have significantly elevated our online presence. Their attention to detail, responsiveness, and innovative approach make them an invaluable asset to our brand. Looking forward to many more successful collaborations!",
+			"We've had the pleasure of collaborating with Socialcapitalist101 for the past two years, and it's been an exceptional partnership. The social media management team consistently delivers creative, strategic, and impactful campaigns that have significantly elevated our online presence. Their attention to detail, responsiveness, and innovative approach make them an invaluable asset to our brand. Looking forward to many more successful collaborations!",
 	},
 	{
 		image: client,
 		name: 'Deepika',
 		designation: 'Founder, Label Kyrabyninadeepika',
 		testimonial:
-			"It has been an absolute delight working with the Social Capitalist. This brilliant team epitomises passion, dedication and taste like nobody else. The power to translate client's needs to perfect deliverables is definitely Paridhi's and her team's forte.",
+			"It has been an absolute delight working with the Social Capitalist. This brilliant team epitomises passion, dedication and taste like nobody else. The power to translate client's needs to perfect deliverables is definitely the team's forte.",
 	},
 	{
 		image: client,
 		name: 'Tracy',
 		designation: 'Founder, The Naviya Edit',
 		testimonial:
-			"Working with Mahikah & team has been incredible. We have worked together almost a year & have created amazing social media presence. I respect how in sync the team are with ideation, keeping on trends, curating informative & fun stories all whilst sticking with the brand's values. I've learnt a lot from the team & love how responsive they are despite being a UK fashion brand. I would highly recommend them to any small business looking to really elevate and focus on their social media or simply need support in this field.",
+			"Working with with the team has been incredible. We have worked together almost a year now & have created amazing social media presence. I respect how in sync the team are with ideation, keeping on trends, curating informative & fun stories all whilst sticking with the brand's values. I've learnt a lot from the team & love how responsive they are despite being a UK fashion brand. I would highly recommend them to any small business looking to really elevate and focus on their social media or simply need support in this field.",
 	},
 	{
 		image: client,
@@ -148,7 +148,7 @@ export const MLPtestimonials = [
 		name: 'Nupur Wadhwani',
 		designation: 'Co-Founder, Wow Kids',
 		testimonial:
-			"Social capitalist has been wonderful through the journey so far. My expectations have been genuinely surpassed by their performance and the experience they provide to us. They're always on their toes, so energized and enthusiastic about everything happening on the social media platform which helps our page perform so much better! We valued insights and newest trending suggestions provided by Mahikah which enhanced our strategy right away. They certainly know their job well!",
+			"Social capitalist has been wonderful through the journey so far. My expectations have been genuinely surpassed by their performance and the experience they provide to us. They're always on their toes, so energized and enthusiastic about everything happening on the social media platform which helps our page perform so much better! We valued insights and newest trending suggestions provided by them which enhanced our strategy right away. They certainly know their job well!",
 	},
 	{
 		image: client,
