@@ -15,7 +15,7 @@ export const CoolText = ({ text }) => {
 		}, 2500)
 
 		return () => clearInterval(interval)
-	}, [textValues.length, colors])
+	}, [textValues.length])
 
 	return (
 		<>
