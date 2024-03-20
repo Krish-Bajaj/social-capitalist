@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 import { companyDetails, companyZohoBooking } from '../data'
 
 import logo from '../assets/withoutbackground.png'
-// import instagram from '../assets/instagram.svg'
-import phone from '../assets/phone.svg'
-import email from '../assets/email.svg'
 
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'

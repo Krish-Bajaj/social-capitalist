@@ -15,6 +15,7 @@ export const CoolText = ({ text }) => {
 		}, 2500)
 
 		return () => clearInterval(interval)
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [textValues.length])
 
 	return (
