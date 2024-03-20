@@ -71,9 +71,10 @@ export const servicesData = {
 
 export const companyDetails = () => {
 	const data = {
-		Email: 'mahikah.socialcapitalist@gmail.com',
+		Email: 'socialcapitalist101@gmail.com',
 		Address: 'Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522 (257) 563-7401',
-		Phone: '+91 9903088622',
+		Phone1: '+91 9903088622',
+		Phone2: '+91 8077830850',
 	}
 	return data
 }

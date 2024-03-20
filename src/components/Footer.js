@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom'
 import { companyDetails, companyZohoBooking } from '../data'
 
 import logo from '../assets/withoutbackground.png'
-import instagram from '../assets/instagram.svg'
+// import instagram from '../assets/instagram.svg'
 import phone from '../assets/phone.svg'
 import email from '../assets/email.svg'
+
+import instagram from '../assets/instagram.png'
+import linkedin from '../assets/linkedin.png'
+import facebook from '../assets/facebook.png'
+import pinterest from '../assets/pinterest.png'
 
 const Footer = () => {
 	const data = companyDetails()
@@ -18,31 +23,19 @@ const Footer = () => {
 			link: 'https://instagram.com/socialcapitalist101?igshid=NzZlODBkYWE4Ng==',
 		},
 		{
-			type: 'email',
-			img: email,
-			link: `mailto:${data['Email']}`,
+			type: 'linkedin',
+			img: linkedin,
+			// link: `mailto:${data['Email']}`,
 		},
 		{
-			type: 'phone',
-			img: phone,
-			link: `tel:${data['Phone']}`,
-		},
-	]
-
-	const contactUs = [
-		{
-			type: 'Email',
-			value: data['Email'],
-			link: `mailto:${data['Email']}`,
+			type: 'facebook',
+			img: facebook,
+			link: 'https://www.facebook.com/profile.php?id=100084710229931&mibextid=LQQJ4d',
 		},
 		{
-			type: 'Address',
-			value: data['Address'],
-		},
-		{
-			type: 'Phone',
-			value: data['Phone'],
-			link: `tel:${data['Phone']}`,
+			type: 'pinterest',
+			img: pinterest,
+			// link: 'https://www.facebook.com/profile.php?id=100084710229931&mibextid=LQQJ4d',
 		},
 	]
 
@@ -63,20 +56,22 @@ const Footer = () => {
 			</div>
 			<ContactDetails>
 				<p style={{ fontWeight: 500, marginBottom: '0.25rem' }}>Contact Us:</p>
-				{contactUs.map(el => (
-					<p>
-						<span>{el.type}:</span>
+				<p>
+					<span>
+						Email: <br />
+						{data['Email']}
+					</span>
+				</p>
+				<p style={{ marginTop: '0.5rem' }}>
+					<span>
+						Phone: <br />
+						{data['Phone1']}
 						<br />
-						<a href={el.link}>{el.value}</a>
-					</p>
-				))}
+						{data['Phone2']}
+					</span>
+				</p>
 			</ContactDetails>
 			<LinksContainer>
-				<div>
-					<p>Work With Us</p>
-					<p>Advertise With Us</p>
-					<p>Business Advices</p>
-				</div>
 				<div>
 					<p>Our Work</p>
 					<a href="#commitments">
@@ -88,8 +83,9 @@ const Footer = () => {
 					<Link to="/about-us">
 						<p>About Us</p>
 					</Link>
-					<p>FAQs</p>
-					<p>Report a Bug</p>
+					<a href="#services-offered">
+						<p>Services</p>
+					</a>
 				</div>
 			</LinksContainer>
 		</Container>

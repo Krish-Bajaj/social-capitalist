@@ -1,0 +1,48 @@
+.rotate-text {
+  font-size: 24px;
+  color: #333;
+  animation: rotateText 5s linear infinite;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 112.5%;
+  text-transform: capitalize;
+  max-width: 550px;
+  margin-top: 0.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+    margin: 0.5rem 0;
+  }
+}
+
+@keyframes rotateText {
+
+  0%,
+  25% {
+    content: "Have fun";
+  }
+
+  25%,
+  50% {
+    content: "Eat good food";
+  }
+
+  50%,
+  75% {
+    content: "Enjoy drinks";
+  }
+
+  75%,
+  100% {
+    content: "Be merry";
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 2.5s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
