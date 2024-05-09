@@ -29,11 +29,11 @@ const Footer = () => {
 			img: facebook,
 			link: 'https://www.facebook.com/profile.php?id=100084710229931&mibextid=LQQJ4d',
 		},
-		{
-			type: 'pinterest',
-			img: pinterest,
-			// link: 'https://www.facebook.com/profile.php?id=100084710229931&mibextid=LQQJ4d',
-		},
+		// {
+		// 	type: 'pinterest',
+		// 	img: pinterest,
+		// 	// link: 'https://www.facebook.com/profile.php?id=100084710229931&mibextid=LQQJ4d',
+		// },
 	]
 
 	return (

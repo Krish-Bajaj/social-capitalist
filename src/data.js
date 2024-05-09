@@ -93,11 +93,11 @@ export const commitmentsData = [
 	},
 	{
 		metric: 'Brands trust us',
-		value: '70+',
+		value: '80+',
 	},
 	{
 		metric: 'Cities reached',
-		value: '8+',
+		value: '10+',
 	},
 ]
 
