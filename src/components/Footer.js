@@ -8,7 +8,7 @@ import logo from '../assets/withoutbackground.png'
 import instagram from '../assets/instagram.png'
 import linkedin from '../assets/linkedin.png'
 import facebook from '../assets/facebook.png'
-import pinterest from '../assets/pinterest.png'
+// import pinterest from '../assets/pinterest.png'
 
 const Footer = () => {
 	const data = companyDetails()

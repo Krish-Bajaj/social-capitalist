@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { commitmentsData } from '../../data'
+// import { commitmentsData } from '../../data'
 
 const Commitments = () => {
 	return (
