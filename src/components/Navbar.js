@@ -21,7 +21,9 @@ const CustomNavbar = () => {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse>
 					<Nav className="navbar-links-mobile">
-						<Nav.Link href="#action1">Our Work</Nav.Link>
+						<Nav.Link href="#action1">
+							<Link to="/work">Our Work</Link>
+						</Nav.Link>
 						<Nav.Link href="#clients">Clients</Nav.Link>
 						<Nav.Link href="#services-offered">Services Offered</Nav.Link>
 						<Nav.Link>

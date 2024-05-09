@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import ScrollToTop from './utils/ScrollToTop'
 
 import { Navbar, Footer } from './components'
-import { MLP, AboutUs, Services } from './pages'
+import { MLP, AboutUs, Services, Work } from './pages'
 
 import './styles/App.css'
 
@@ -18,6 +18,7 @@ function App() {
 					<Route path="/" exact={true} element={<MLP />} />
 					<Route path="/about-us" element={<AboutUs />} />
 					<Route path="/services/:id" element={<Services />} />
+					<Route path="/work" element={<Work />} />
 				</Routes>
 				<Footer />
 			</AppContainer>

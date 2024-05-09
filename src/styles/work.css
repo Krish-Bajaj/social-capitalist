@@ -1,0 +1,73 @@
+@import url(https://fonts.bunny.net/css?family=underdog:400);
+
+.workbody {
+    background-color: black;
+    background-image: radial-gradient(circle at center, transparent, black), repeating-linear-gradient(90deg, black, rgba(41, 41, 41, 1) 2px, black 2px);
+    color: white;
+    font-family: system-ui, sans-serif;
+    /* height: 100svh; */
+    padding: 0.8rem 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.grid {
+    display: grid;
+    gap: 1.2rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50rem;
+    margin-top: 2rem;
+}
+
+.grid>* {
+    padding: 10px;
+    margin: 0;
+}
+
+.workfigure,
+.workimage {
+    transition: all 0.2s ease-in-out;
+}
+
+.workfigure {
+    background-color: white;
+    mix-blend-mode: plus-lighter;
+}
+
+.workfigure:nth-of-type(1) {
+    background-color: deeppink;
+}
+
+.workfigure:nth-of-type(2) {
+    background-color: yellowgreen;
+}
+
+.workimage {
+    cursor: pointer;
+    aspect-ratio: 1;
+    object-fit: cover;
+    width: 100%;
+    filter: grayscale(100%) contrast(2) brightness(2) blur(0.5px);
+    mix-blend-mode: hard-light;
+    clip-path: rect(1% 99% 99% 1%);
+}
+
+.workfigure:has(img:hover, img:focus) {
+    background-color: white;
+    mix-blend-mode: normal;
+}
+
+.workfigure:has(img:hover, img:focus) img {
+    mix-blend-mode: normal;
+    filter: none;
+}
+
+@media screen and (max-width: 600px) {
+    .grid {
+        padding: 1rem;
+    }
+
+    .grid>* {
+        grid-column: auto / span 2;
+    }
+}

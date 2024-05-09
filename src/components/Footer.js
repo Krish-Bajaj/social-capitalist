@@ -70,7 +70,9 @@ const Footer = () => {
 			</ContactDetails>
 			<LinksContainer>
 				<div>
-					<p>Our Work</p>
+					<Link to="/work">
+						<p>Our Work</p>
+					</Link>
 					<a href="#commitments">
 						<p>Our Commitment</p>
 					</a>
